@@ -299,3 +299,45 @@ h3{
   font-family: arial;
 
 }
+.checkbox {
+  
+  cursor: pointer;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #b50909;
+  border-radius: 50%;
+  position: relative;
+  display: ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+.checkbox:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #b50909;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 600ms ease-in-out;
+  position: absolute;
+  background: transparent;
+  border: 4px solid #b50909;
+  border-left: 0;
+  border-top: 0;
+  width: 5px;
+  height: 10px;
+  transform: rotate(45deg);
+  top: 0px;
+  right: 3px;
+}
+.checkbox:checked:before {
+  opacity: 1;
+}
+.checkbox:focus {
+  box-shadow: 0 0 5px #b50909;
+}
+
+
