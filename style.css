@@ -229,9 +229,13 @@ h3{
   margin-top:5px
 }
 .divnotas1, .divnotas2, .divnotas3{
-  margin-left: 15px;
+  padding-left: 15px;
   font-family: arial;
- 
+  background-color: white;
+  border-radius: 15px;
+}
+.divnotas2{
+  background-color:rgb(210, 210, 210);
 }
 .botão-notas{
   
