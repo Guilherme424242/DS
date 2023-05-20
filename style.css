@@ -42,6 +42,7 @@ h1 {
   background-size: cover;
   width: 100%;
 }
+
 .downpart{
   flex: 1;
   background-color: white;
@@ -183,3 +184,114 @@ h3{
   float: right;
   margin-right: 75px;
 }  
+.notas-caixa{
+  position: absolute;
+   width: 450px;
+   height:226px;
+   margin: 0 auto;
+   bottom: 340px            ;
+   left:500px;
+   border-radius: 8px;
+   background-color: rgba(227, 227, 227, 1)
+   ;
+}
+.disciplinas-caixa{
+  position: absolute;
+   width: 500px;
+   height:297px;
+   margin: 0 auto;
+   bottom: 20px            ;
+   left:480px;
+   border-radius: 8px;
+   background-color: rgba(227, 227, 227, 1);
+   text-align: center;
+}
+.calendario-caixa{
+  position: absolute;
+   width: 560px;
+   height: 610px;px;
+   margin: 0 auto;
+   bottom: 20px            ;
+   right:45px;
+   border-radius: 20px;
+   background-color: rgba(227, 227, 227, 1)
+   ;
+}
+
+
+.notas1{
+  font-size: 25px;
+  font-family:arial;
+  font-weight: 800;
+  margin-left: 40px;
+  padding-top: 18px;
+  margin-bottom: 15px;
+  margin-top:5px
+}
+.divnotas1, .divnotas2, .divnotas3{
+  margin-left: 15px;
+  font-family: arial;
+ 
+}
+.botão-notas{
+  
+}
+
+.notas3{
+  display: inline-block;
+
+}
+.disciplinas{
+  margin-right: 215px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family:arial;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.botãodisciplinas1{
+  margin-left: 50px;
+  font-size: 18px;
+  width: 400px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-style:none;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  background-color: #b50909;
+  color: white;
+  border-radius: 20px;
+  white-space: nowrap;
+  font-family: arial;
+  margin-top:0px;
+  margin-bottom:10px;   
+}
+.cadastrar-disciplinas{
+  font-family: arial;
+  font-weight:bold;
+  color: #b50909;
+  border-style: solid;
+  border-color: #b50909;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-width: 3px;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+.cadastrar-disciplinas:hover{
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.cadastrar-disciplinas:active{
+  color:white;
+  background-color:#b50909;
+}
+.calendario-titulo{
+  margin-left: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: arial;
+
+}
