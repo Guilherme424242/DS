@@ -234,16 +234,17 @@ h3{
   background-color: white;
   border-radius: 15px;
   
+  
 }
 .divnotas2{
   background-color:rgb(210, 210, 210);
 }
-.botão-notas{
-  
-}
+
 
 .notas3{
   display: inline-block;
+  vertical-align: bottom;
+  
 
 }
 .disciplinas{
@@ -301,7 +302,7 @@ h3{
 
 }
 .checkbox {
-  
+  margin-bottom: 12px;
   cursor: pointer;
   appearance: none;
   width: 20px;
@@ -309,10 +310,6 @@ h3{
   border: 3px solid #b50909;
   border-radius: 50%;
   position: relative;
-  display: ;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   outline: none;
 }
 .checkbox:before {
@@ -332,7 +329,7 @@ h3{
   height: 10px;
   transform: rotate(45deg);
   top: 0px;
-  right: ;
+  right:3px;
 }
 .checkbox:checked:before {
   opacity: 1;
